@@ -10,8 +10,8 @@ bmp280.sea_level_pressure = 1021.3
 
 from digitalio import DigitalInOut, Direction, Pull
 
-led1 = DigitalInOut(board.D17)
-led2 = DigitalInOut(board.D27)
+led1 = DigitalInOut(board.D27)
+led2 = DigitalInOut(board.D17)
 led3 = DigitalInOut(board.D22)
 led1.direction = Direction.OUTPUT
 led2.direction = Direction.OUTPUT
